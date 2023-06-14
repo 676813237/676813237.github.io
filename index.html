@@ -21,16 +21,6 @@
       line-height: 1.5;
     }
 
-    button {
-      display: block;
-      margin: 50px auto;
-      border: none;
-      background-color: #007bff;
-      color: #fff;
-      padding: 10px 20px;
-      border-radius: 5px;
-      cursor: pointer;
-    }
 
     button:hover {
       background-color: #0062cc;
@@ -38,17 +28,15 @@
   </style>
 </head>
 <body>
-  <h1>随机牛马生成器</h1>
+  <h1>个人信息生成</h1>
   <p id="random-content">点击下面按钮生成随机内容。</p>
   <button onclick="generateContent()">生成随机内容</button>
 
   <script>
-    const contentArr = [
       "姓名：冯铎炀",
       "学号：2021131450",
       "班级：110214",
 	"30号"
-    ];
 
     function generateContent() {
       let i = Math.floor(Math.random() * contentArr.length);
