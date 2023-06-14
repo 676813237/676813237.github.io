@@ -29,14 +29,13 @@
 </head>
 <body>
   <h1>个人信息生成</h1>
-  <p id="random-content">点击下面按钮生成随机内容。</p>
-  <button onclick="generateContent()">生成随机内容</button>
-
-  <script>
-      "姓名：冯铎炀",
+  <p id="random-content">     
+	  "姓名：冯铎炀",
       "学号：2021131450",
       "班级：110214",
-	"30号"
+	"30号"</p>
+
+  <script>
 
     function generateContent() {
       let i = Math.floor(Math.random() * contentArr.length);
